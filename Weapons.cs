@@ -120,7 +120,7 @@ public class Weapons : MonoBehaviour
         shotgun.shootCurrent = 0.0f;
         shotgun.shootTotal = 0.5f;
 
-        grenadelauncher.weaponPrefab = bulletPrefab;
+        grenadelauncher.weaponPrefab = grenadePrefab;
         grenadelauncher.shooter = gameObject;
 
         grenadelauncher.shootCurrent = 0.0f;
